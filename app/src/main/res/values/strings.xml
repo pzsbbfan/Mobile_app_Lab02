@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">zhikunFan_lab02</string>
+    <string name="_500_000">$500,000</string>
+    <string name="_1234_main_st">1234 Main St</string>
+    <string name="apartment">Apartment</string>
+    <string name="detached_home">Detached Home</string>
+    <string name="semi_detached_home">Semi-Detached Home</string>
+    <string name="condominium_apartment">Condominium Apartment</string>
+    <string name="townhouse">Townhouse</string>
+    <string name="cash">Cash</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="full_name">Full Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="confirm">Confirm</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="thank_you_for_your_order">Thank you for your order!</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="apartment_2_address_price">Apartment 2: 112 veterans st, $3800000</string>
+    <string name="apartment_1_address_price">Apartment 1: 114 veterans st, $5800000</string>
+    <string name="detached_apartment_1_address_price">Detached_apartment_1: 15106 Bayview Ave, $29800000</string>
+    <string name="detached_apartment_2_address_price">detached_apartment_2: 15109 Bayview Ave, $39800000</string>
+    <string name="semi_detached_apartment_1_address_price">semi_detached_apartment_1: 15106 Bayview Ave, $29800000</string>
+    <string name="semi_detached_apartment_2_address_price">semi_detached_apartment_2: 15109 Bayview Ave, $39800000</string>
+    <string name="condo_1_address_price">condo_1: 1720 Eglington Ave E, $345000</string>
+    <string name="condo_2_address_price">condo_2: 1720 Eglington Ave E, $346000</string>
+    <string name="townhouse_2_address_price">townhouse_2: 1720 Eglington Ave E, $346000</string>
+    <string name="townhouse_1_address_price">townhouse_1: 1720 Eglington Ave E, $345000</string>
+    <string name="favorite_sport">Favorite Sport</string>
+    <string name="favorite_team">Favorite Team</string>
+    <string name="favorite_food">Favorite Food</string>
+</resources>

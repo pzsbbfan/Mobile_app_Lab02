@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroupHomes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cash"/>
+
+        <RadioButton
+            android:id="@+id/radioCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_card"/>
+
+        <RadioButton
+            android:id="@+id/radioDebit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/debit_card"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/paymentDetailsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/editTextFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/full_name"/>
+
+        <EditText
+            android:id="@+id/editTextCardNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/card_number"/>
+
+        <EditText
+            android:id="@+id/editTextFavoriteSport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/favorite_sport"/>
+
+        <EditText
+            android:id="@+id/editTextFavoriteTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/favorite_team"/>
+
+        <EditText
+            android:id="@+id/editTextFavoriteFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/favorite_food"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"/>
+</LinearLayout>
